@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE articles SYSTEM "articles.dtd">
+<?xml-stylesheet type="text/xsl" href="articles.xsl" ?>
+<articles xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="articles.xsd">
+    
+    <article id="1" lang="fr">
+        <title>Article 1</title>
+        <author>Benze</author>
+        <date>2019-04-23</date>
+        <excerpt>
+            Accroche 1
+        </excerpt>
+        <content>
+            Contenu 1
+        </content>
+        <thumbnails> <!-- if empty, error 'cause it's waiting for at least 1 image (image+) -->
+            <image>img/miniature.jpg</image>
+            <image>img/miniature.png</image>
+<!--            <image>img/miniature.pdf</image>-->
+        </thumbnails>
+    </article>
+    
+    <article id="2" lang="en">
+        <title>Article 2</title>
+        <author>Eden</author>
+        <date>2019-04-23</date>
+        <excerpt>
+            Accroche 2
+        </excerpt>
+        <content>
+            Contenu 2
+        </content>
+        <thumbnails>
+            <image>img/miniature.jpg</image>
+            <image>img/miniature.png</image>
+<!--            <image>img/miniature.pdf</image>-->
+        </thumbnails>
+    </article>
+    
+    <article id="3" lang="en">
+        <title>Article 3</title>
+        <author>Wissam</author>
+        <date>2019-04-23</date>
+        <excerpt>
+            Accroche 3
+        </excerpt>
+        <content>
+            Contenu 3
+        </content>
+        <thumbnails>
+            <image>img/miniature.jpg</image>
+            <image>img/miniature.png</image>
+<!--            <image>img/miniature.pdf</image>-->
+        </thumbnails>
+    </article>
+    
+</articles>
+
+

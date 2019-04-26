@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT articles (article*)> <!-- * = 0-100 | + = 1-100  -->
+<!ELEMENT article (title, author, date, excerpt, content, thumbnails)> <!--  pipes (|) of commas to not be blocked by order rules -->
+<!ELEMENT title (#PCDATA)>
+<!ELEMENT author (#PCDATA)>
+<!ELEMENT date (#PCDATA)>
+<!ELEMENT excerpt (#PCDATA)>
+<!ELEMENT content (#PCDATA)>
+<!ELEMENT thumbnails (image+)>
+<!ELEMENT image (#PCDATA)>
+<!ATTLIST article
+    id CDATA #REQUIRED
+    lang CDATA #IMPLIED
+>
+<!ATTLIST articles
+    xmlns:xsi CDATA #IMPLIED
+    xsi:noNamespaceSchemaLocation CDATA #IMPLIED
+>
